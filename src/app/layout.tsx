@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import {
   createWhatsAppUrl,
   WHATSAPP_REQUIREMENTS_MESSAGE,
 } from "@/lib/contact";
 import "./globals.css";
+
+const googleAnalyticsId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
+const isGoogleAnalyticsConfigured = /^G-[A-Z0-9]+$/.test(
+  googleAnalyticsId ?? "",
+);
 
 export const metadata: Metadata = {
   title: "Dandeli Direct | Stays and activities in Dandeli",
@@ -16,6 +22,20 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
         {children}
+        {isGoogleAnalyticsConfigured && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){window.dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${googleAnalyticsId}');`}
+            </Script>
+          </>
+        )}
         <a
           href={createWhatsAppUrl(WHATSAPP_REQUIREMENTS_MESSAGE)}
           target="_blank"
