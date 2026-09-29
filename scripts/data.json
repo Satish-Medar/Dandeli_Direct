@@ -1,0 +1,2687 @@
+[
+  {
+    "id": "riverfront-01",
+    "alias": "Riverfront Escape #01",
+    "name": "Riverfront Escape & Spa",
+    "category": "Resort",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 1.2,
+    "riverDistanceText": "1.2 km to river",
+    "nearestLandmark": "Ganeshgudi Dam Viewpoint",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.9,
+    "reviewCount": 342,
+    "pricePerNightINR": 4200,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Luxury River View Suite",
+      "Deluxe Cottage"
+    ],
+    "stayType": "Luxury Stay",
+    "tags": [
+      "riverside",
+      "luxury",
+      "pool"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Spa",
+      "Free WiFi",
+      "Restaurant",
+      "Parking"
+    ],
+    "activitiesOffered": [
+      "White Water Rafting",
+      "Kayaking",
+      "Zipline",
+      "Campfire"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2681,74.5321",
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "riverfront-02",
+    "alias": "Ganeshgudi Riverfront #02",
+    "name": "Ganeshgudi Riverfront Lodge",
+    "category": "Resort",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 2.4,
+    "riverDistanceText": "2.4 km to river",
+    "nearestLandmark": "Supa Dam Backwaters",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel",
+      "Vi"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.8,
+    "reviewCount": 218,
+    "pricePerNightINR": 3600,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Riverside Chalet",
+      "Standard Room"
+    ],
+    "stayType": "Riverside Stay",
+    "tags": [
+      "riverside",
+      "luxury"
+    ],
+    "amenities": [
+      "Restaurant",
+      "Garden",
+      "Parking",
+      "Hot Water"
+    ],
+    "activitiesOffered": [
+      "Coracle Ride",
+      "Boating",
+      "Bird Watching",
+      "Campfire"
+    ],
+    "mealsIncluded": [
+      "Breakfast"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2710,74.5290",
+    "image": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "riverfront-03",
+    "alias": "Kali Breeze Resort #03",
+    "name": "Kali Breeze River Retreat",
+    "category": "Resort",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 0.5,
+    "riverDistanceText": "0.5 km to river",
+    "nearestLandmark": "Old Bridge Kali River",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.6,
+    "reviewCount": 185,
+    "pricePerNightINR": 3900,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "10:30 AM",
+    "roomTypes": [
+      "River Facing Cottage"
+    ],
+    "stayType": "Nature Stay",
+    "tags": [
+      "riverside",
+      "view"
+    ],
+    "amenities": [
+      "Open Dining Area",
+      "Parking",
+      "Game Zone"
+    ],
+    "activitiesOffered": [
+      "Rafting",
+      "River Jacuzzi",
+      "Swimming"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2655,74.5388",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "jungle-01",
+    "alias": "Wilderness Canopy Stay #01",
+    "name": "Wilderness Canopy Jungle Camp",
+    "category": "Camp & Lodge",
+    "location": "Dandeli Forest Rim",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 3.8,
+    "riverDistanceText": "3.8 km to river",
+    "nearestLandmark": "Dandeli Wildlife Sanctuary Gate",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "BSNL"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.5,
+    "reviewCount": 129,
+    "pricePerNightINR": 2400,
+    "currency": "INR",
+    "checkInTime": "11:00 AM",
+    "checkOutTime": "10:00 AM",
+    "roomTypes": [
+      "Swiss Tents",
+      "Bamboo Huts"
+    ],
+    "stayType": "Adventure Camp",
+    "tags": [
+      "jungle",
+      "adventure"
+    ],
+    "amenities": [
+      "Bonfire Area",
+      "Dining Hall",
+      "Outdoor Sports Equipment"
+    ],
+    "activitiesOffered": [
+      "Jungle Safari",
+      "Night Trekking",
+      "Archery"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Pure Veg & Non-Veg (Separate)",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": false,
+    "parkingAvailable": true,
+    "powerBackup": "Solar & Inverter",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2420,74.6100",
+    "image": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "jungle-02",
+    "alias": "Teakwood Jungle Lodge #02",
+    "name": "Teakwood Sanctuary Lodge",
+    "category": "Eco Lodge",
+    "location": "Badakanshirda",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 4.2,
+    "riverDistanceText": "4.2 km to river",
+    "nearestLandmark": "Badakanshirda Cross",
+    "mobileSignal": "No signal",
+    "networkProviders": [],
+    "wifiAvailable": false,
+    "rating": 4.4,
+    "reviewCount": 94,
+    "pricePerNightINR": 2100,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Wooden Cottage",
+      "Dormitory"
+    ],
+    "stayType": "Peaceful Stay",
+    "tags": [
+      "jungle",
+      "peaceful"
+    ],
+    "amenities": [
+      "Library",
+      "Hammocks",
+      "Dining Room"
+    ],
+    "activitiesOffered": [
+      "Nature Walk",
+      "Bird Watching",
+      "Star Gazing"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Home-cooked Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2201,74.5902",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "jungle-03",
+    "alias": "Green Canopy Retreat #03",
+    "name": "Green Canopy Treehouse Resort",
+    "category": "Resort",
+    "location": "Dandeli Wilds",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 6.0,
+    "riverDistanceText": "6.0 km to river",
+    "nearestLandmark": "Kulgi Nature Camp",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "Jio"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.6,
+    "reviewCount": 160,
+    "pricePerNightINR": 2600,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Treehouse Villa",
+      "Canopy Room"
+    ],
+    "stayType": "Treehouse Stay",
+    "tags": [
+      "jungle",
+      "treehouse"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Restaurant",
+      "Travel Desk"
+    ],
+    "activitiesOffered": [
+      "Zip Line",
+      "Burma Bridge",
+      "Jungle Trekking"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2100,74.6300",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "jungle-04",
+    "alias": "Eco-Jungle Homestay #04",
+    "name": "Eco-Jungle Organic Homestay",
+    "category": "Homestay",
+    "location": "Kogilban",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 5.1,
+    "riverDistanceText": "5.1 km to river",
+    "nearestLandmark": "Kogilban Gram Panchayat",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.7,
+    "reviewCount": 205,
+    "pricePerNightINR": 2850,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Eco Cottage",
+      "Family Suite"
+    ],
+    "stayType": "Homestay",
+    "tags": [
+      "jungle",
+      "peaceful"
+    ],
+    "amenities": [
+      "Organic Farm",
+      "Home Dining Area",
+      "Parking"
+    ],
+    "activitiesOffered": [
+      "Organic Farming Tour",
+      "Herbal Walk",
+      "Campfire"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Traditional Local Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Power",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2345,74.5800",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "hilltop-01",
+    "alias": "Mist Mountain Heights #01",
+    "name": "Mist Mountain Heights Resort",
+    "category": "Resort",
+    "location": "Syneri Ridge",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 8.2,
+    "riverDistanceText": "8.2 km to river",
+    "nearestLandmark": "Syneri View Point",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.7,
+    "reviewCount": 178,
+    "pricePerNightINR": 3200,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "12:00 PM",
+    "roomTypes": [
+      "Mountain View Villa",
+      "Executive Room"
+    ],
+    "stayType": "Hill Station Resort",
+    "tags": [
+      "hilltop",
+      "view",
+      "trekking"
+    ],
+    "amenities": [
+      "Infinity Pool",
+      "Multi-Cuisine Restaurant",
+      "Gym"
+    ],
+    "activitiesOffered": [
+      "Hill Trekking",
+      "Sunrise View Point Walk",
+      "Photography Tour"
+    ],
+    "mealsIncluded": [
+      "Breakfast"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2900,74.6500",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "hilltop-02",
+    "alias": "Valley View Resort #02",
+    "name": "Joida Valley View Inn",
+    "category": "Lodge",
+    "location": "Joida Hills",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 9.5,
+    "riverDistanceText": "9.5 km to river",
+    "nearestLandmark": "Joida Bus Station",
+    "mobileSignal": "3G signal",
+    "networkProviders": [
+      "BSNL",
+      "Airtel"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.3,
+    "reviewCount": 87,
+    "pricePerNightINR": 2200,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Standard Valley Room"
+    ],
+    "stayType": "Budget Stay",
+    "tags": [
+      "hilltop",
+      "budget"
+    ],
+    "amenities": [
+      "Balcony",
+      "Parking",
+      "Room Service"
+    ],
+    "activitiesOffered": [
+      "Sightseeing",
+      "Trekking"
+    ],
+    "mealsIncluded": [
+      "Breakfast"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.3100,74.4800",
+    "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "cottage-01",
+    "alias": "Heritage Timber Cottages #01",
+    "name": "Heritage Timber Village",
+    "category": "Cottages",
+    "location": "Barchi Road",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 3.1,
+    "riverDistanceText": "3.1 km to river",
+    "nearestLandmark": "Barchi Checkpost",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel",
+      "Vi"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.6,
+    "reviewCount": 240,
+    "pricePerNightINR": 3100,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Wooden Cottage",
+      "Heritage Villa"
+    ],
+    "stayType": "Family Resort",
+    "tags": [
+      "cottage",
+      "family"
+    ],
+    "amenities": [
+      "Children Play Area",
+      "Swimming Pool",
+      "Restaurant"
+    ],
+    "activitiesOffered": [
+      "Cycling",
+      "Badminton",
+      "Campfire with Music"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2550,74.5650",
+    "image": "https://images.unsplash.com/photo-1587061949409-02df41d5e562?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "cottage-02",
+    "alias": "Bamboo Grove Cottages #02",
+    "name": "Bamboo Grove Nature Cottages",
+    "category": "Cottages",
+    "location": "Ambikanagar",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 2.9,
+    "riverDistanceText": "2.9 km to river",
+    "nearestLandmark": "Ambikanagar Hydro Station",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.5,
+    "reviewCount": 112,
+    "pricePerNightINR": 2900,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "10:30 AM",
+    "roomTypes": [
+      "Bamboo Eco Suite"
+    ],
+    "stayType": "Nature Stay",
+    "tags": [
+      "cottage",
+      "nature"
+    ],
+    "amenities": [
+      "Garden",
+      "Outdoor Seating",
+      "Restaurant"
+    ],
+    "activitiesOffered": [
+      "Bird Watching",
+      "Coracle Ride",
+      "Plantation Tour"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2800,74.5400",
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "camp-01",
+    "alias": "Riverbed Glamping Camp #01",
+    "name": "Riverbed Glamping Site",
+    "category": "Campsite",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 0.2,
+    "riverDistanceText": "0.2 km to river",
+    "nearestLandmark": "Kali Rafting Starting Point",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "Airtel"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.8,
+    "reviewCount": 310,
+    "pricePerNightINR": 1900,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "10:00 AM",
+    "roomTypes": [
+      "Luxury Waterproof Tent",
+      "Dome Tent"
+    ],
+    "stayType": "Glamping",
+    "tags": [
+      "camping",
+      "riverside",
+      "bonfire"
+    ],
+    "amenities": [
+      "Shared Clean Washrooms",
+      "Campfire Pit",
+      "Barbecue Setup"
+    ],
+    "activitiesOffered": [
+      "River Rafting",
+      "Night Camping",
+      "Guitar Night around Fire"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg BBQ",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": false,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Lanterns & Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2670,74.5360",
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "camp-02",
+    "alias": "Starlight Adventure Camp #02",
+    "name": "Starlight Wilderness Camp",
+    "category": "Campsite",
+    "location": "Phansoli",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 6.5,
+    "riverDistanceText": "6.5 km to river",
+    "nearestLandmark": "Phansoli Elephant Camp",
+    "mobileSignal": "No signal",
+    "networkProviders": [],
+    "wifiAvailable": false,
+    "rating": 4.2,
+    "reviewCount": 75,
+    "pricePerNightINR": 1500,
+    "currency": "INR",
+    "checkInTime": "03:00 PM",
+    "checkOutTime": "10:00 AM",
+    "roomTypes": [
+      "Alpine Tent"
+    ],
+    "stayType": "Budget Adventure Camp",
+    "tags": [
+      "camping",
+      "budget",
+      "trekking"
+    ],
+    "amenities": [
+      "Common Washrooms",
+      "Campfire Area"
+    ],
+    "activitiesOffered": [
+      "Elephant Interaction Tour",
+      "Forest Trek",
+      "Stargazing"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg Only",
+    "petFriendly": false,
+    "coupleFriendly": false,
+    "familyFriendly": false,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Only",
+    "googleMapsUrl": "https://maps.google.com/?q=15.1950,74.6200",
+    "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "luxury-01",
+    "alias": "Supa Dam Villa & Spa #01",
+    "name": "Supa Dam Royal Villa & Spa",
+    "category": "5-Star Resort",
+    "location": "Ganeshgudi Backwaters",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 1.8,
+    "riverDistanceText": "1.8 km to river",
+    "nearestLandmark": "Supa Hydroelectric Dam",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.9,
+    "reviewCount": 420,
+    "pricePerNightINR": 5800,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "12:00 PM",
+    "roomTypes": [
+      "Private Pool Villa",
+      "Presidential Suite"
+    ],
+    "stayType": "Luxury Wellness Resort",
+    "tags": [
+      "luxury",
+      "pool",
+      "spa"
+    ],
+    "amenities": [
+      "Private Pool",
+      "Ayurvedic Spa",
+      "Fine Dining Restaurant",
+      "EV Charger"
+    ],
+    "activitiesOffered": [
+      "Speed Boating",
+      "Private Jacuzzi",
+      "Yoga Sessions"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Multi-Cuisine Gourmet (Veg/Non-Veg)",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator & Solar",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2750,74.5200",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "luxury-02",
+    "alias": "Royal Oak Forest Resort #02",
+    "name": "Royal Oak Luxury Forest Manor",
+    "category": "Luxury Resort",
+    "location": "Haliyal Road",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 4.0,
+    "riverDistanceText": "4.0 km to river",
+    "nearestLandmark": "Dandeli Gate Arch",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel",
+      "Vi"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.7,
+    "reviewCount": 298,
+    "pricePerNightINR": 4900,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Oak Luxury Suite",
+      "Family Duplex Villa"
+    ],
+    "stayType": "Luxury Family Stay",
+    "tags": [
+      "luxury",
+      "pool"
+    ],
+    "amenities": [
+      "Temperature Controlled Pool",
+      "Banquet Hall",
+      "Bar & Lounge"
+    ],
+    "activitiesOffered": [
+      "Indoor Games",
+      "Guided City Tour",
+      "Customized Safaris"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Multi-Cuisine Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2500,74.5800",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "eco-01",
+    "alias": "Hornbill Eco Enclave #01",
+    "name": "Hornbill River Eco Enclave",
+    "category": "Eco Resort",
+    "location": "Ganeshgudi Bird Sanctuary",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 1.5,
+    "riverDistanceText": "1.5 km to river",
+    "nearestLandmark": "Ganeshgudi Hornbill Feeding Spot",
+    "mobileSignal": "3G signal",
+    "networkProviders": [
+      "BSNL",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.8,
+    "reviewCount": 389,
+    "pricePerNightINR": 3400,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Tree Cottage",
+      "River Facing Tent"
+    ],
+    "stayType": "Eco Birding Lodge",
+    "tags": [
+      "eco",
+      "birdwatching",
+      "riverside"
+    ],
+    "amenities": [
+      "Bird Watching Deck",
+      "Eco-Restaurant",
+      "Open Air Lounge"
+    ],
+    "activitiesOffered": [
+      "Guided Ornithology Walks",
+      "Coracle Ride",
+      "Kayaking"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Organic Local Cuisine (Veg/Non-Veg)",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2722,74.5311",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "eco-02",
+    "alias": "Bio-Sphere Eco Stays #02",
+    "name": "Bio-Sphere Green Living Retreat",
+    "category": "Eco Resort",
+    "location": "Kulgi Nature Camp Area",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 7.1,
+    "riverDistanceText": "7.1 km to river",
+    "nearestLandmark": "Kulgi Nature Interpretation Centre",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "Jio"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.6,
+    "reviewCount": 104,
+    "pricePerNightINR": 2700,
+    "currency": "INR",
+    "checkInTime": "12:30 PM",
+    "checkOutTime": "10:30 AM",
+    "roomTypes": [
+      "Mud House Cottage",
+      "Straw Bale Room"
+    ],
+    "stayType": "Sustainable Stay",
+    "tags": [
+      "eco",
+      "organic"
+    ],
+    "amenities": [
+      "Composting Facilities",
+      "Solar Heated Water",
+      "Organic Garden"
+    ],
+    "activitiesOffered": [
+      "Permaculture Workshop",
+      "Forest Trekking"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "100% Organic Farm-to-Table Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "100% Solar Power",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2050,74.6400",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "adventure-01",
+    "alias": "White Water Rafting Hub #01",
+    "name": "White Water Adventure Camp & Resort",
+    "category": "Adventure Resort",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 0.8,
+    "riverDistanceText": "0.8 km to river",
+    "nearestLandmark": "Kali Rafting Rapid Point 2",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.7,
+    "reviewCount": 512,
+    "pricePerNightINR": 2500,
+    "currency": "INR",
+    "checkInTime": "11:30 AM",
+    "checkOutTime": "10:00 AM",
+    "roomTypes": [
+      "Adventure Dorms",
+      "Standard AC Rooms"
+    ],
+    "stayType": "Action & Adventure Stay",
+    "tags": [
+      "adventure",
+      "rafting",
+      "riverside"
+    ],
+    "amenities": [
+      "Rafting Equipment Storage",
+      "Locker Room",
+      "Buffet Dining"
+    ],
+    "activitiesOffered": [
+      "Grade 3 Whitewater Rafting",
+      "River Crossing",
+      "Zipline"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "foodType": "Buffet Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Generator Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2630,74.5420",
+    "image": "https://images.unsplash.com/photo-1530866495561-507c9faab2ed?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "adventure-02",
+    "alias": "ZipLine & Rapids Resort #02",
+    "name": "Thrill Zone Adventure Resort",
+    "category": "Adventure Park & Resort",
+    "location": "Dandeli Outskirts",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 3.0,
+    "riverDistanceText": "3.0 km to river",
+    "nearestLandmark": "Dandeli Adventure Park",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel",
+      "Vi"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.4,
+    "reviewCount": 167,
+    "pricePerNightINR": 2300,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Standard Cottage",
+      "Quad Sharing Room"
+    ],
+    "stayType": "Group Adventure Stay",
+    "tags": [
+      "adventure",
+      "sports"
+    ],
+    "amenities": [
+      "Rope Course Park",
+      "Swimming Pool",
+      "Restaurant"
+    ],
+    "activitiesOffered": [
+      "Burma Bridge",
+      "Zipline",
+      "ATV Rides",
+      "Archery"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": false,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Generator Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2480,74.5720",
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "riverfront-04",
+    "alias": "Kali Stream Hideaway #04",
+    "name": "Kali Stream Quiet Hideaway",
+    "category": "Boutique Stay",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 1.9,
+    "riverDistanceText": "1.9 km to river",
+    "nearestLandmark": "Stream Junction Bridge",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.6,
+    "reviewCount": 143,
+    "pricePerNightINR": 3300,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Stream Facing Suite"
+    ],
+    "stayType": "Peaceful Riverside Stay",
+    "tags": [
+      "riverside",
+      "peaceful"
+    ],
+    "amenities": [
+      "Private Balconies",
+      "In-house Chef",
+      "Garden"
+    ],
+    "activitiesOffered": [
+      "Fishing",
+      "Stream Walking",
+      "Campfire"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2690,74.5250",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "riverfront-05",
+    "alias": "Dandeli River Shore Resort #05",
+    "name": "Dandeli River Shore Premium Resort",
+    "category": "Luxury Resort",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 0.3,
+    "riverDistanceText": "0.3 km to river",
+    "nearestLandmark": "River Shore Jetty Point",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.8,
+    "reviewCount": 276,
+    "pricePerNightINR": 4100,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "River Villa",
+      "Glass House Cottage"
+    ],
+    "stayType": "Luxury Riverside Stay",
+    "tags": [
+      "riverside",
+      "luxury",
+      "kayaking"
+    ],
+    "amenities": [
+      "Private Water Deck",
+      "Pool",
+      "Open Air Restaurant"
+    ],
+    "activitiesOffered": [
+      "Private Kayaking",
+      "Coracle Rides",
+      "Sunset Cruise"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Multi-Cuisine Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2660,74.5350",
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "jungle-05",
+    "alias": "Panther Creek Lodge #05",
+    "name": "Panther Creek Wildlife Lodge",
+    "category": "Jungle Lodge",
+    "location": "Dshioli Forest",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 6.8,
+    "riverDistanceText": "6.8 km to river",
+    "nearestLandmark": "Dshioli Watch Tower",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "BSNL"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.5,
+    "reviewCount": 118,
+    "pricePerNightINR": 2750,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "10:30 AM",
+    "roomTypes": [
+      "Log Cabins",
+      "Safari Rooms"
+    ],
+    "stayType": "Wildlife Safari Stay",
+    "tags": [
+      "jungle",
+      "wildlife"
+    ],
+    "amenities": [
+      "Wildlife Observation Deck",
+      "Communal Dining"
+    ],
+    "activitiesOffered": [
+      "Jeep Safari",
+      "Night Jungle Walk",
+      "Bird Tracking"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Local Karnataka Cuisine (Veg/Non-Veg)",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2150,74.6050",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "jungle-06",
+    "alias": "Deep Woods Sanctuary #06",
+    "name": "Deep Woods Wilderness Retreat",
+    "category": "Eco Lodge",
+    "location": "Potoli Woods",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 8.0,
+    "riverDistanceText": "8.0 km to river",
+    "nearestLandmark": "Potoli Village Cross",
+    "mobileSignal": "No signal",
+    "networkProviders": [],
+    "wifiAvailable": false,
+    "rating": 4.3,
+    "reviewCount": 64,
+    "pricePerNightINR": 2000,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Basic Wooden Cabins"
+    ],
+    "stayType": "Digital Detox Stay",
+    "tags": [
+      "jungle",
+      "peaceful"
+    ],
+    "amenities": [
+      "Outdoor Fireplace",
+      "Dining Gazebo"
+    ],
+    "activitiesOffered": [
+      "Self-Guided Forest Walks",
+      "Meditation",
+      "Star Observation"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Simple Home Veg/Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": false,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Lamps Only",
+    "googleMapsUrl": "https://maps.google.com/?q=15.1800,74.5700",
+    "image": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "treehouse-01",
+    "alias": "High Canopy Treehouse #01",
+    "name": "High Canopy Luxury Treehouse",
+    "category": "Luxury Boutique",
+    "location": "Ganeshgudi Forest",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 2.1,
+    "riverDistanceText": "2.1 km to river",
+    "nearestLandmark": "Old Forest Rest House",
+    "mobileSignal": "3G signal",
+    "networkProviders": [
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.9,
+    "reviewCount": 230,
+    "pricePerNightINR": 4500,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Elevated Wooden Treehouse"
+    ],
+    "stayType": "Luxury Treehouse",
+    "tags": [
+      "treehouse",
+      "luxury",
+      "view"
+    ],
+    "amenities": [
+      "Balcony Jacuzzi",
+      "Room Service",
+      "Minibar"
+    ],
+    "activitiesOffered": [
+      "Canopy Walk",
+      "Bird Photography",
+      "Romantic Dinner"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Gourmet Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": false,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2730,74.5280",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "treehouse-02",
+    "alias": "Bird Sanctuary Nest #02",
+    "name": "Hornbill Nest Treehouse Stay",
+    "category": "Eco Treehouse",
+    "location": "Kogilban",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 4.8,
+    "riverDistanceText": "4.8 km to river",
+    "nearestLandmark": "Kogilban Stream",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "Jio"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.7,
+    "reviewCount": 154,
+    "pricePerNightINR": 3800,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Eco Bamboo Treehouse"
+    ],
+    "stayType": "Nature Experience",
+    "tags": [
+      "treehouse",
+      "birdwatching"
+    ],
+    "amenities": [
+      "Telescope Deck",
+      "Dining Room",
+      "Garden"
+    ],
+    "activitiesOffered": [
+      "Guided Bird Watching",
+      "Night Forest Safari"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Local Malnad Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2360,74.5820",
+    "image": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "family-01",
+    "alias": "Dandeli Heritage Family Resort #01",
+    "name": "Dandeli Heritage Family Club & Resort",
+    "category": "Family Resort",
+    "location": "Town Center Area",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 4.5,
+    "riverDistanceText": "4.5 km to river",
+    "nearestLandmark": "Dandeli City Bus Stand",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel",
+      "Vi",
+      "BSNL"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.5,
+    "reviewCount": 410,
+    "pricePerNightINR": 3000,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Family Interconnecting Room",
+      "Deluxe AC Room"
+    ],
+    "stayType": "Family Vacation",
+    "tags": [
+      "family",
+      "pool",
+      "activities"
+    ],
+    "amenities": [
+      "Kid's Pool",
+      "Game Room",
+      "Conference Hall",
+      "Restaurant"
+    ],
+    "activitiesOffered": [
+      "Rain Dance",
+      "Indoor/Outdoor Games",
+      "Cultural Show"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Buffet Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2430,74.6230",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "family-02",
+    "alias": "Greenwood Family Park & Stay #02",
+    "name": "Greenwood Family Holiday Park",
+    "category": "Resort",
+    "location": "Barchi Road",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 3.5,
+    "riverDistanceText": "3.5 km to river",
+    "nearestLandmark": "Barchi Primary School",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.4,
+    "reviewCount": 188,
+    "pricePerNightINR": 2800,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Family Suite",
+      "Standard Room"
+    ],
+    "stayType": "Budget Family Stay",
+    "tags": [
+      "family",
+      "budget"
+    ],
+    "amenities": [
+      "Children Playground",
+      "Lawns",
+      "Dining Area"
+    ],
+    "activitiesOffered": [
+      "Cricket",
+      "Volleyball",
+      "Campfire"
+    ],
+    "mealsIncluded": [
+      "Breakfast"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2510,74.5680",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "backwater-01",
+    "alias": "Supa Backwater Oasis #01",
+    "name": "Supa Backwater Oasis Resort",
+    "category": "Waterfront Resort",
+    "location": "Ganeshgudi North",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 1.1,
+    "riverDistanceText": "1.1 km to river",
+    "nearestLandmark": "Supa Dam View Point North",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.8,
+    "reviewCount": 320,
+    "pricePerNightINR": 4300,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Water Facing Villa",
+      "Luxury Room"
+    ],
+    "stayType": "Backwater Retreat",
+    "tags": [
+      "backwater",
+      "riverside",
+      "sunset"
+    ],
+    "amenities": [
+      "Boating Deck",
+      "Sunset Point Lounge",
+      "Restaurant"
+    ],
+    "activitiesOffered": [
+      "Sunset Boating",
+      "Island Picnic",
+      "Kayaking"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg Seafood Special",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2780,74.5180",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "backwater-02",
+    "alias": "Island View Island Resort #02",
+    "name": "Island View Backwater Lodge",
+    "category": "Lodge",
+    "location": "Kali Backwaters",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 0.9,
+    "riverDistanceText": "0.9 km to river",
+    "nearestLandmark": "Island View Boat Point",
+    "mobileSignal": "3G signal",
+    "networkProviders": [
+      "BSNL",
+      "Airtel"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.7,
+    "reviewCount": 145,
+    "pricePerNightINR": 3700,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "10:30 AM",
+    "roomTypes": [
+      "Cottage with Lake View"
+    ],
+    "stayType": "Island Backwater Stay",
+    "tags": [
+      "backwater",
+      "boating"
+    ],
+    "amenities": [
+      "Private Boat Access",
+      "Dining Area"
+    ],
+    "activitiesOffered": [
+      "Coracle Rides",
+      "Angling",
+      "Bird Watching"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Local Fresh Fish Cuisine",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2795,74.5150",
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "plantation-01",
+    "alias": "Arecanut Grove Estate #01",
+    "name": "Arecanut Grove Plantation Homestay",
+    "category": "Farmstay",
+    "location": "Vincholi",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 5.5,
+    "riverDistanceText": "5.5 km to river",
+    "nearestLandmark": "Vincholi Waterfall Road",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.6,
+    "reviewCount": 162,
+    "pricePerNightINR": 2600,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Estate Heritage Room"
+    ],
+    "stayType": "Farmstay / Plantation",
+    "tags": [
+      "plantation",
+      "peaceful",
+      "food"
+    ],
+    "amenities": [
+      "Areca Nut Farm Walk",
+      "Dining Hall",
+      "Verandah"
+    ],
+    "activitiesOffered": [
+      "Plantation Walk",
+      "Village Tour",
+      "Cooking Class"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Authentic North Canara Veg/Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2300,74.5500",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "plantation-02",
+    "alias": "Spice Route Homestay #02",
+    "name": "Spice Route Organic Estate",
+    "category": "Farmstay",
+    "location": "Joida Road",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 7.0,
+    "riverDistanceText": "7.0 km to river",
+    "nearestLandmark": "Joida Spice Farm Cross",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "BSNL"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.5,
+    "reviewCount": 98,
+    "pricePerNightINR": 2300,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Traditional Tiled Cottage"
+    ],
+    "stayType": "Rustic Farmstay",
+    "tags": [
+      "plantation",
+      "homecooked"
+    ],
+    "amenities": [
+      "Spice Garden",
+      "Open Air Kitchen",
+      "Courtyard"
+    ],
+    "activitiesOffered": [
+      "Spice Tasting Tour",
+      "Bullock Cart Ride"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Homecooked Malnad Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.3000,74.5000",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "budget-01",
+    "alias": "Backpackers Haven #01",
+    "name": "Backpackers Haven Hostel & Stays",
+    "category": "Hostel",
+    "location": "Near Bus Stand",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 5.0,
+    "riverDistanceText": "5.0 km to river",
+    "nearestLandmark": "Dandeli KSRTC Bus Stand",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel",
+      "Vi",
+      "BSNL"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.1,
+    "reviewCount": 210,
+    "pricePerNightINR": 1200,
+    "currency": "INR",
+    "checkInTime": "11:00 AM",
+    "checkOutTime": "10:00 AM",
+    "roomTypes": [
+      "Bunk Bed in Mixed Dorm",
+      "Private Single Room"
+    ],
+    "stayType": "Backpacker Hostel",
+    "tags": [
+      "budget",
+      "hostel"
+    ],
+    "amenities": [
+      "Common Lounge",
+      "High-Speed WiFi",
+      "Shared Kitchen"
+    ],
+    "activitiesOffered": [
+      "Group Treks",
+      "Board Games",
+      "City Cycles"
+    ],
+    "mealsIncluded": [],
+    "foodType": "Cafe Snacks Available",
+    "petFriendly": false,
+    "coupleFriendly": false,
+    "familyFriendly": false,
+    "parkingAvailable": false,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2450,74.6250",
+    "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "budget-02",
+    "alias": "Rafters Dormitory & Stays #02",
+    "name": "Rafters Budget Dormitory",
+    "category": "Hostel",
+    "location": "Dandeli Town",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 4.2,
+    "riverDistanceText": "4.2 km to river",
+    "nearestLandmark": "Dandeli Market Square",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel",
+      "Vi"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.2,
+    "reviewCount": 175,
+    "pricePerNightINR": 1400,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "10:00 AM",
+    "roomTypes": [
+      "8-Bed AC Dormitory",
+      "Private Budget Room"
+    ],
+    "stayType": "Budget Group Stay",
+    "tags": [
+      "budget",
+      "rafting"
+    ],
+    "amenities": [
+      "Lockers",
+      "Shower Rooms",
+      "Travel Desk"
+    ],
+    "activitiesOffered": [
+      "Rafting Booking",
+      "Bike Rental"
+    ],
+    "mealsIncluded": [
+      "Breakfast"
+    ],
+    "foodType": "Basic Veg Breakfast",
+    "petFriendly": false,
+    "coupleFriendly": false,
+    "familyFriendly": false,
+    "parkingAvailable": true,
+    "powerBackup": "Generator Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2440,74.6210",
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "luxury-03",
+    "alias": "The Kali Imperial Suites #03",
+    "name": "The Kali Imperial Resort & Spa",
+    "category": "5-Star Resort",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 1.0,
+    "riverDistanceText": "1.0 km to river",
+    "nearestLandmark": "Kali Hydro Bridge",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 5.0,
+    "reviewCount": 540,
+    "pricePerNightINR": 6500,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "12:00 PM",
+    "roomTypes": [
+      "Imperial River Suite",
+      "Private Jacuzzi Villa"
+    ],
+    "stayType": "Ultra Luxury Resort",
+    "tags": [
+      "luxury",
+      "riverside",
+      "spa",
+      "pool"
+    ],
+    "amenities": [
+      "Infinity Edge Pool",
+      "Full Service Spa",
+      "Fine Dining",
+      "Valet Parking"
+    ],
+    "activitiesOffered": [
+      "Private Jet Skiing",
+      "Luxury River Cruise",
+      "Helicopter Tour"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "International Multi-Cuisine",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Redundant Power",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2675,74.5340",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "eco-03",
+    "alias": "Earthling Bamboo Eco-Lodge #03",
+    "name": "Earthling Bamboo Eco Lodge",
+    "category": "Eco Lodge",
+    "location": "Kogilban Edge",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 5.8,
+    "riverDistanceText": "5.8 km to river",
+    "nearestLandmark": "Kogilban Reserve Forest",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "Jio"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.6,
+    "reviewCount": 110,
+    "pricePerNightINR": 2900,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Bamboo Eco Cottage"
+    ],
+    "stayType": "Eco-Friendly Stay",
+    "tags": [
+      "eco",
+      "sustainable"
+    ],
+    "amenities": [
+      "Solar Water Heater",
+      "Eco-Friendly Toiletries",
+      "Organic Cafe"
+    ],
+    "activitiesOffered": [
+      "Bamboo Crafting Workshop",
+      "Forest Walk"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Organic Veg & Local Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2320,74.5870",
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "riverfront-06",
+    "alias": "Whistling Woods River Resort #06",
+    "name": "Whistling Woods Estate & River Resort",
+    "category": "Resort",
+    "location": "Ganeshgudi Bank",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 0.4,
+    "riverDistanceText": "0.4 km to river",
+    "nearestLandmark": "Ganeshgudi Suspension Bridge",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.9,
+    "reviewCount": 480,
+    "pricePerNightINR": 4400,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "River View Luxury Cottage",
+      "Waterfront Room"
+    ],
+    "stayType": "Luxury Nature Stay",
+    "tags": [
+      "riverside",
+      "luxury",
+      "nature"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Riverside Dining",
+      "Activity Lawn"
+    ],
+    "activitiesOffered": [
+      "Rafting",
+      "Kayaking",
+      "Jacuzzi Bath in River",
+      "Night Trek"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Buffet Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2715,74.5305",
+    "image": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "jungle-07",
+    "alias": "Black Panther Jungle Camp #07",
+    "name": "Black Panther Wilderness Safari Camp",
+    "category": "Safari Camp",
+    "location": "Anshi Forest Border",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 11.0,
+    "riverDistanceText": "11.0 km to river",
+    "nearestLandmark": "Anshi National Park Gate",
+    "mobileSignal": "No signal",
+    "networkProviders": [],
+    "wifiAvailable": false,
+    "rating": 4.7,
+    "reviewCount": 195,
+    "pricePerNightINR": 3100,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "10:00 AM",
+    "roomTypes": [
+      "Safari Cottage",
+      "Jungle Tent"
+    ],
+    "stayType": "Wilderness Safari",
+    "tags": [
+      "jungle",
+      "safari",
+      "wildlife"
+    ],
+    "amenities": [
+      "Safari Booking Counter",
+      "Common Mess"
+    ],
+    "activitiesOffered": [
+      "Anshi National Park Safari",
+      "Camouflage Night Trek"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Traditional North Canara Veg/Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.0200,74.4000",
+    "image": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "cottage-03",
+    "alias": "Stonehenge River Cottages #03",
+    "name": "Stonehenge Riverfront Cottages",
+    "category": "Cottages",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 1.6,
+    "riverDistanceText": "1.6 km to river",
+    "nearestLandmark": "Kali Water Treatment Plant",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.5,
+    "reviewCount": 132,
+    "pricePerNightINR": 3500,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Stone Wall Cottage"
+    ],
+    "stayType": "Riverside Cottage",
+    "tags": [
+      "cottage",
+      "riverside"
+    ],
+    "amenities": [
+      "Outdoor Dining",
+      "Garden",
+      "Parking"
+    ],
+    "activitiesOffered": [
+      "River Trekking",
+      "Zipline",
+      "Campfire"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2685,74.5315",
+    "image": "https://images.unsplash.com/photo-1587061949409-02df41d5e562?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "camp-03",
+    "alias": "Safari Tents at Kali #03",
+    "name": "Kali Safari Tent Stay",
+    "category": "Campsite",
+    "location": "Ganeshgudi Grounds",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 0.6,
+    "riverDistanceText": "0.6 km to river",
+    "nearestLandmark": "Ganeshgudi Temple",
+    "mobileSignal": "3G signal",
+    "networkProviders": [
+      "BSNL",
+      "Airtel"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.3,
+    "reviewCount": 89,
+    "pricePerNightINR": 1800,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "10:00 AM",
+    "roomTypes": [
+      "Canvas Safari Tent"
+    ],
+    "stayType": "Tent Stay",
+    "tags": [
+      "camping",
+      "riverside"
+    ],
+    "amenities": [
+      "Shared Bathroom Block",
+      "Dining Area"
+    ],
+    "activitiesOffered": [
+      "Coracle Ride",
+      "Campfire"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Simple Local Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": false,
+    "familyFriendly": false,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2705,74.5335",
+    "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "adventure-03",
+    "alias": "Rapids & Trails Outpost #03",
+    "name": "Rapids & Trails Adventure Lodge",
+    "category": "Adventure Lodge",
+    "location": "Badakanshirda",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 3.9,
+    "riverDistanceText": "3.9 km to river",
+    "nearestLandmark": "Badakanshirda School",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.6,
+    "reviewCount": 140,
+    "pricePerNightINR": 2650,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Dormitory",
+      "Private AC Room"
+    ],
+    "stayType": "Adventure Outpost",
+    "tags": [
+      "adventure",
+      "trekking"
+    ],
+    "amenities": [
+      "Equipment Rental Desk",
+      "Buffet Hall"
+    ],
+    "activitiesOffered": [
+      "Mountain Biking",
+      "River Rafting",
+      "Trekking"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2230,74.5880",
+    "image": "https://images.unsplash.com/photo-1530866495561-507c9faab2ed?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "hilltop-03",
+    "alias": "Cloud Nine Peak Resort #03",
+    "name": "Cloud Nine Hill Peak Resort",
+    "category": "Resort",
+    "location": "Syneri Peak",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 10.1,
+    "riverDistanceText": "10.1 km to river",
+    "nearestLandmark": "Syneri Transmission Tower",
+    "mobileSignal": "3G signal",
+    "networkProviders": [
+      "Airtel",
+      "BSNL"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.4,
+    "reviewCount": 102,
+    "pricePerNightINR": 3300,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Panoramic View Suite"
+    ],
+    "stayType": "Hilltop View Resort",
+    "tags": [
+      "hilltop",
+      "view"
+    ],
+    "amenities": [
+      "View Deck",
+      "Restaurant",
+      "Garden Lounge"
+    ],
+    "activitiesOffered": [
+      "Sunrise Tracking",
+      "Cloud Photography"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Inverter Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2950,74.6600",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "riverfront-07",
+    "alias": "Misty River Bend Stay #07",
+    "name": "Misty River Bend Resort",
+    "category": "Resort",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 2.1,
+    "riverDistanceText": "2.1 km to river",
+    "nearestLandmark": "Kali River Curve 4",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.7,
+    "reviewCount": 215,
+    "pricePerNightINR": 3750,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Misty Valley Cottage"
+    ],
+    "stayType": "Riverside Retreat",
+    "tags": [
+      "riverside",
+      "peaceful"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Lawn",
+      "Restaurant"
+    ],
+    "activitiesOffered": [
+      "Kayaking",
+      "Boating",
+      "Campfire"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2698,74.5270",
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "jungle-08",
+    "alias": "Teak Forest Hideaway #08",
+    "name": "Teak Forest Hideaway Homestay",
+    "category": "Homestay",
+    "location": "Haliyal Border",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 6.2,
+    "riverDistanceText": "6.2 km to river",
+    "nearestLandmark": "Haliyal Forest Checkpost",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "Jio"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.2,
+    "reviewCount": 58,
+    "pricePerNightINR": 2150,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "10:30 AM",
+    "roomTypes": [
+      "Homestay Room"
+    ],
+    "stayType": "Budget Homestay",
+    "tags": [
+      "jungle",
+      "budget"
+    ],
+    "amenities": [
+      "Home Kitchen",
+      "Verandah",
+      "Parking"
+    ],
+    "activitiesOffered": [
+      "Forest Walks",
+      "Bird Watching"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Homecooked Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2600,74.6000",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "family-03",
+    "alias": "Dandeli Fun World Resort #03",
+    "name": "Dandeli Fun World Family Resort",
+    "category": "Family Resort",
+    "location": "Main Road",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 3.2,
+    "riverDistanceText": "3.2 km to river",
+    "nearestLandmark": "Dandeli Water Tank",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel",
+      "Vi"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.3,
+    "reviewCount": 190,
+    "pricePerNightINR": 3200,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Family Deluxe Room"
+    ],
+    "stayType": "Family Fun Resort",
+    "tags": [
+      "family",
+      "pool",
+      "games"
+    ],
+    "amenities": [
+      "Water Slides",
+      "Swimming Pool",
+      "Arcade Games",
+      "Restaurant"
+    ],
+    "activitiesOffered": [
+      "Rain Dance",
+      "Water Games",
+      "Music Night"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2490,74.5780",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "eco-04",
+    "alias": "Wild Grass Eco Resort #04",
+    "name": "Wild Grass Eco Sanctuary",
+    "category": "Eco Resort",
+    "location": "Kulgi Meadow",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 6.9,
+    "riverDistanceText": "6.9 km to river",
+    "nearestLandmark": "Kulgi Deer Park",
+    "mobileSignal": "Limited signal",
+    "networkProviders": [
+      "Jio"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.7,
+    "reviewCount": 142,
+    "pricePerNightINR": 2950,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Thatched Roof Cottage"
+    ],
+    "stayType": "Quiet Eco Stay",
+    "tags": [
+      "eco",
+      "peaceful"
+    ],
+    "amenities": [
+      "Organic Dining",
+      "Garden",
+      "Library"
+    ],
+    "activitiesOffered": [
+      "Nature Trails",
+      "Butterfly Watching",
+      "Star Gazing"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Pure Veg Organic",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2080,74.6380",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "luxury-04",
+    "alias": "Serenity Springs Resort #04",
+    "name": "Serenity Springs Premium Resort",
+    "category": "Luxury Resort",
+    "location": "Ganeshgudi South",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 1.7,
+    "riverDistanceText": "1.7 km to river",
+    "nearestLandmark": "Ganeshgudi Power House Road",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.8,
+    "reviewCount": 310,
+    "pricePerNightINR": 5200,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "12:00 PM",
+    "roomTypes": [
+      "Spring Villa with Private Jacuzzi"
+    ],
+    "stayType": "Luxury Wellness Stay",
+    "tags": [
+      "luxury",
+      "pool",
+      "riverside"
+    ],
+    "amenities": [
+      "Outdoor Heated Pool",
+      "Ayurveda Spa",
+      "Fine Dining Bar"
+    ],
+    "activitiesOffered": [
+      "Guided Rafting",
+      "Private Coracle Dinner",
+      "Yoga"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Multi-Cuisine Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2740,74.5220",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "treehouse-03",
+    "alias": "Forest Canopy Loft #03",
+    "name": "Forest Canopy Loft & Cabins",
+    "category": "Treehouse Lodge",
+    "location": "Phansoli Trail",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 7.5,
+    "riverDistanceText": "7.5 km to river",
+    "nearestLandmark": "Phansoli Nature Trail Head",
+    "mobileSignal": "No signal",
+    "networkProviders": [],
+    "wifiAvailable": false,
+    "rating": 4.6,
+    "reviewCount": 98,
+    "pricePerNightINR": 4100,
+    "currency": "INR",
+    "checkInTime": "01:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Wooden Loft Treehouse"
+    ],
+    "stayType": "Secluded Treehouse Stay",
+    "tags": [
+      "treehouse",
+      "peaceful"
+    ],
+    "amenities": [
+      "Tree Deck",
+      "Common Dining Hall"
+    ],
+    "activitiesOffered": [
+      "Canopy Stargazing",
+      "Guided Wildlife Trail"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Local Veg & Non-Veg",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": false,
+    "parkingAvailable": true,
+    "powerBackup": "Solar Backup",
+    "googleMapsUrl": "https://maps.google.com/?q=15.1900,74.6280",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "camp-04",
+    "alias": "River Edge Dome Tents #04",
+    "name": "River Edge Dome Glamping",
+    "category": "Glamping Site",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 0.1,
+    "riverDistanceText": "0.1 km to river",
+    "nearestLandmark": "Kali River Rafting Exit Point",
+    "mobileSignal": "3G signal",
+    "networkProviders": [
+      "Airtel",
+      "BSNL"
+    ],
+    "wifiAvailable": false,
+    "rating": 4.5,
+    "reviewCount": 165,
+    "pricePerNightINR": 2200,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "10:00 AM",
+    "roomTypes": [
+      "Geodesic Dome Tent"
+    ],
+    "stayType": "Dome Glamping",
+    "tags": [
+      "camping",
+      "riverside",
+      "bonfire"
+    ],
+    "amenities": [
+      "Attached Washroom in Domes",
+      "Campfire Pit",
+      "Dining Area"
+    ],
+    "activitiesOffered": [
+      "Night Bonfire & Music",
+      "River Rafting",
+      "Kayaking"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg BBQ Buffet",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": false,
+    "parkingAvailable": true,
+    "powerBackup": "Solar & Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2665,74.5355",
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "cottage-04",
+    "alias": "Rosewood Villa Cottages #04",
+    "name": "Rosewood Villa Cottages",
+    "category": "Cottages",
+    "location": "Ambikanagar Road",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 2.7,
+    "riverDistanceText": "2.7 km to river",
+    "nearestLandmark": "Ambikanagar Bus Stop",
+    "mobileSignal": "4G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.6,
+    "reviewCount": 178,
+    "pricePerNightINR": 3400,
+    "currency": "INR",
+    "checkInTime": "12:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Rosewood Villa",
+      "Family Cottage"
+    ],
+    "stayType": "Family Cottages",
+    "tags": [
+      "cottage",
+      "family"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Garden",
+      "In-house Restaurant"
+    ],
+    "activitiesOffered": [
+      "Indoor Board Games",
+      "Coracle Rides",
+      "Campfire"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "foodType": "Veg & Non-Veg",
+    "petFriendly": true,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2785,74.5420",
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": "riverfront-08",
+    "alias": "Kali Grand River Resort #08",
+    "name": "Kali Grand Waterfront Resort",
+    "category": "Luxury Resort",
+    "location": "Near Kali River",
+    "district": "Uttara Kannada",
+    "distanceToRiverKm": 0.7,
+    "riverDistanceText": "0.7 km to river",
+    "nearestLandmark": "Ganeshgudi Main Rafting Dock",
+    "mobileSignal": "5G signal",
+    "networkProviders": [
+      "Jio",
+      "Airtel",
+      "Vi"
+    ],
+    "wifiAvailable": true,
+    "rating": 4.9,
+    "reviewCount": 490,
+    "pricePerNightINR": 4800,
+    "currency": "INR",
+    "checkInTime": "02:00 PM",
+    "checkOutTime": "11:00 AM",
+    "roomTypes": [
+      "Grand River Suite",
+      "Waterfront Deluxe Room"
+    ],
+    "stayType": "Luxury Waterfront Stay",
+    "tags": [
+      "riverside",
+      "luxury",
+      "pool"
+    ],
+    "amenities": [
+      "Infinity Swimming Pool",
+      "Riverside Restaurant",
+      "Conference Hall",
+      "Spa"
+    ],
+    "activitiesOffered": [
+      "White Water Rafting",
+      "Kayaking",
+      "Zipline",
+      "Live Music Night"
+    ],
+    "mealsIncluded": [
+      "Breakfast",
+      "Lunch",
+      "Dinner"
+    ],
+    "foodType": "Multi-Cuisine Buffet (Veg & Non-Veg)",
+    "petFriendly": false,
+    "coupleFriendly": true,
+    "familyFriendly": true,
+    "parkingAvailable": true,
+    "powerBackup": "24/7 Redundant Generator",
+    "googleMapsUrl": "https://maps.google.com/?q=15.2678,74.5330",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+  }
+]

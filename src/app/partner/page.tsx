@@ -28,7 +28,6 @@ export default function PartnerPage() {
     <main className="partner-shell">
       <header className="partner-header">
         <Link className="brand" href="/">
-          <span className="brand-mark">DD</span>
           <span>
             Dandeli <em>Direct</em>
           </span>
@@ -37,7 +36,7 @@ export default function PartnerPage() {
           PARTNER PORTAL / GANESH GUDI RIVERFRONT #02
         </span>
         <Link className="back-link" href="/">
-          ← Guest site
+          Guest site
         </Link>
       </header>
       <section className="partner-intro">
@@ -76,7 +75,7 @@ export default function PartnerPage() {
               <p className="eyebrow">CHECK-IN DESK</p>
               <h2>Verify a voucher</h2>
             </div>
-            <span className="scanner-icon">⌁</span>
+            <span className="text-xs font-semibold text-[#ba633d]">01</span>
           </div>
           <p className="panel-copy">
             Paste the QR hash from the guest voucher to validate the booking and
@@ -95,7 +94,7 @@ export default function PartnerPage() {
             type="button"
             onClick={verifyVoucher}
           >
-            Verify guest <span>→</span>
+            Verify guest
           </button>
           {status && (
             <p className={`verification-status ${verified ? "success" : ""}`}>
@@ -110,7 +109,7 @@ export default function PartnerPage() {
               <h2>June 18, 2026</h2>
             </div>
             <button className="calendar-action" type="button">
-              Manage →
+              Manage calendar
             </button>
           </div>
           <div className="room-row">
@@ -149,7 +148,7 @@ export default function PartnerPage() {
             <h2>Recent movement</h2>
           </div>
           <button className="calendar-action" type="button">
-            View all →
+            View ledger
           </button>
         </div>
         <div className="ledger-row">

@@ -1,16 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {
+  createWhatsAppUrl,
+  WHATSAPP_REQUIREMENTS_MESSAGE,
+} from "@/lib/contact";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Dandeli Direct | Stays and activities in Dandeli",
@@ -20,11 +13,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className="h-full antialiased">
+      <body className="min-h-full flex flex-col">
+        {children}
+        <a
+          href={createWhatsAppUrl(WHATSAPP_REQUIREMENTS_MESSAGE)}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Chat with Dandeli Direct on WhatsApp"
+          className="fixed bottom-5 right-5 z-50 rounded-md bg-[#25D366] px-5 py-3 font-semibold text-[#102c27] shadow-md transition-colors hover:bg-[#62e38f] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+        >
+          Chat on WhatsApp
+        </a>
+      </body>
     </html>
   );
 }

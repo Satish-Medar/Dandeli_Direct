@@ -134,8 +134,7 @@ export function calculatePackage(
     (sum, item) => sum + item.price * guests,
     0,
   );
-  const platformFee = 200 * guests;
-  const total = stay + meals + activityTotal + platformFee;
+  const total = stay + meals + activityTotal;
   const directComparableTotal =
     property.directRackRate * nights + activityTotal;
   return {
@@ -144,7 +143,7 @@ export function calculatePackage(
     meals,
     selectedActivities,
     activityTotal,
-    platformFee,
+    platformFee: 0,
     total,
     deposit: Math.round(total * 0.25),
     savingsVsDirect: Math.max(0, directComparableTotal - total),

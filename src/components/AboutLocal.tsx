@@ -1,21 +1,20 @@
 export function AboutLocal() {
   return (
-    <section className="bg-white py-24 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        
+    <section id="about" className="bg-[#fbfaf6] px-6 py-20 md:px-12 md:py-24">
+      <div className="mx-auto grid max-w-screen-xl grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20">
         <div className="order-2 lg:order-1">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="rounded-3xl overflow-hidden h-[300px] mt-8">
-              <img 
-                src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=800&q=80" 
-                alt="Local team inspecting a resort" 
+          <div className="grid grid-cols-2 items-start gap-4">
+            <div className="mt-8 h-[280px] overflow-hidden md:h-[380px]">
+              <img
+                src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=800&q=80"
+                alt="Forest canopy near Dandeli"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="rounded-3xl overflow-hidden h-[340px]">
-              <img 
-                src="https://images.unsplash.com/photo-1596422846543-75c6fc197f0a?auto=format&fit=crop&w=800&q=80" 
-                alt="Kali River rafting" 
+            <div className="h-[280px] overflow-hidden md:h-[380px]">
+              <img
+                src="https://images.unsplash.com/photo-1596422846543-75c6fc197f0a?auto=format&fit=crop&w=800&q=80"
+                alt="River landscape in the Dandeli region"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -23,35 +22,38 @@ export function AboutLocal() {
         </div>
 
         <div className="order-1 lg:order-2">
-          <p className="text-[#d66c3c] font-mono text-sm tracking-widest font-semibold mb-4 uppercase">
-            Rooted in Dandeli
+          <p className="mb-4 text-xs font-semibold uppercase text-[#ba633d]">
+            A little local context
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold font-serif text-gray-900 mb-8 leading-tight">
-            We built this to stop the roadside scams.
+          <h2 className="mb-7 font-serif text-4xl leading-tight text-[#18372f] md:text-5xl">
+            The right stay depends on the kind of Dandeli you came for.
           </h2>
-          <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
+          <div className="space-y-5 text-base leading-7 text-[#53645b]">
             <p>
-              For years, the local tourism market in Dandeli has been plagued by unorganized roadside agents who inflate prices and misrepresent properties. 
+              Some people come for the river. Others want a quiet place under
+              the trees, a family weekend, or a full day outdoors. Distance,
+              meals, and mobile signal can matter as much as the room itself.
             </p>
             <p>
-              We are a team of locals and tech enthusiasts who decided to fix it. <strong>Dandeli Direct</strong> partners directly with verified resort owners to secure wholesale rates.
-            </p>
-            <p>
-              By using our escrow system and masking property details until booking, we prevent agents from bypassing our platform, ensuring you get the <em>actual</em> resort price—not a bloated tourist markup.
+              We put those details next to the price so you can compare stays
+              with your plans in mind. If you are unsure, tell us what you need
+              and we will help you work through the options.
             </p>
           </div>
-          
-          <div className="mt-12 flex items-center gap-6 p-6 bg-slate-50 rounded-2xl border border-gray-200">
-            <div className="w-16 h-16 bg-[#143d32] rounded-full flex items-center justify-center text-white shrink-0">
-              <span className="font-serif italic text-2xl">DD</span>
-            </div>
-            <div>
-              <h4 className="font-bold text-gray-900">The Dandeli Direct Promise</h4>
-              <p className="text-sm text-gray-500 mt-1">If your platform package cost is ever higher than the direct walk-in rack rate, we will refund the difference instantly.</p>
-            </div>
+
+          <div className="mt-8 border-l-2 border-[#ba633d] pl-5">
+            <p className="text-sm leading-6 text-[#53645b]">
+              Have a question before you book? Call us at{" "}
+              <a
+                href="tel:+917204113614"
+                className="font-semibold text-[#18372f] underline underline-offset-4"
+              >
+                +91 72041 13614
+              </a>
+              .
+            </p>
           </div>
         </div>
-
       </div>
     </section>
   );
