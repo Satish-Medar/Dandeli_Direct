@@ -3,6 +3,7 @@ import {
   createWhatsAppUrl,
   WHATSAPP_REQUIREMENTS_MESSAGE,
 } from "@/lib/contact";
+import { TrackedWhatsAppLink } from "@/components/TrackedWhatsAppLink";
 
 export function Hero() {
   return (
@@ -61,14 +62,14 @@ export function Hero() {
             and speak directly with us before you commit.
           </p>
           <div className="mt-9 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
-            <a
+            <TrackedWhatsAppLink
               href={createWhatsAppUrl(WHATSAPP_REQUIREMENTS_MESSAGE)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex min-h-12 items-center justify-center bg-[#25D366] px-6 py-3 font-semibold text-[#102c27] transition-colors hover:bg-[#62e38f]"
             >
               Tell us what you have in mind
-            </a>
+            </TrackedWhatsAppLink>
             <a
               href="#booking"
               className="py-3 text-sm font-semibold text-white underline decoration-white/50 underline-offset-4 transition-colors hover:decoration-white"

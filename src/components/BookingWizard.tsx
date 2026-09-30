@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { CONTACT_PHONE_DISPLAY, createWhatsAppUrl } from "@/lib/contact";
+import { TrackedWhatsAppLink } from "@/components/TrackedWhatsAppLink";
 
 type Property = {
   id: string;
@@ -562,14 +563,14 @@ export function BookingWizard({
 
               <p className="mt-5 text-center text-sm text-[#cadbce]">
                 Prefer to discuss it?{" "}
-                <a
+                <TrackedWhatsAppLink
                   href={createWhatsAppUrl(whatsappMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-semibold text-white underline underline-offset-4"
                 >
                   Send these details on WhatsApp
-                </a>
+                </TrackedWhatsAppLink>
                 <span className="mx-2">or</span>
                 <a
                   href="tel:+917204113614"

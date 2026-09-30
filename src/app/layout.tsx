@@ -4,6 +4,7 @@ import {
   createWhatsAppUrl,
   WHATSAPP_REQUIREMENTS_MESSAGE,
 } from "@/lib/contact";
+import { TrackedWhatsAppLink } from "@/components/TrackedWhatsAppLink";
 import "./globals.css";
 
 const googleAnalyticsId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
@@ -36,7 +37,7 @@ gtag('config', '${googleAnalyticsId}');`}
             </Script>
           </>
         )}
-        <a
+        <TrackedWhatsAppLink
           href={createWhatsAppUrl(WHATSAPP_REQUIREMENTS_MESSAGE)}
           target="_blank"
           rel="noopener noreferrer"
@@ -44,7 +45,7 @@ gtag('config', '${googleAnalyticsId}');`}
           className="fixed bottom-5 right-5 z-50 rounded-md bg-[#25D366] px-5 py-3 font-semibold text-[#102c27] shadow-md transition-colors hover:bg-[#62e38f] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
         >
           Chat on WhatsApp
-        </a>
+        </TrackedWhatsAppLink>
       </body>
     </html>
   );

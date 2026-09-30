@@ -3,6 +3,7 @@ import {
   createWhatsAppUrl,
   WHATSAPP_REQUIREMENTS_MESSAGE,
 } from "@/lib/contact";
+import { TrackedWhatsAppLink } from "@/components/TrackedWhatsAppLink";
 
 export function Footer() {
   return (
@@ -64,14 +65,14 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a
+              <TrackedWhatsAppLink
                 href={createWhatsAppUrl(WHATSAPP_REQUIREMENTS_MESSAGE)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white underline decoration-white/40 underline-offset-4 hover:decoration-white"
               >
                 WhatsApp us
-              </a>
+              </TrackedWhatsAppLink>
             </li>
           </ul>
         </div>
