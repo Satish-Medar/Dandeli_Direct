@@ -42,7 +42,7 @@ gtag('config', '${googleAnalyticsId}');`}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat with Dandeli Direct on WhatsApp"
-          className="fixed bottom-5 right-5 z-50 rounded-md bg-[#25D366] px-5 py-3 font-semibold text-[#102c27] shadow-md transition-colors hover:bg-[#62e38f] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          className="fixed bottom-3 right-3 z-50 rounded-md bg-[#25D366] px-4 py-3 text-sm font-semibold text-[#102c27] shadow-md transition-colors hover:bg-[#62e38f] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:bottom-5 sm:right-5 sm:px-5 sm:text-base"
         >
           Chat on WhatsApp
         </TrackedWhatsAppLink>

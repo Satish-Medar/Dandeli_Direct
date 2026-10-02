@@ -1,31 +1,32 @@
 "use client";
 
-import type { AnchorHTMLAttributes, ReactNode } from "react";
+import type { AnchorHTMLAttributes, MouseEvent, ReactNode } from "react";
 
 declare global {
   interface Window {
-    dataLayer: IArguments[];
+    dataLayer: unknown[][];
     gtag: (...args: unknown[]) => void;
   }
 }
 
-type TrackedWhatsAppLinkProps = Omit<
-  AnchorHTMLAttributes<HTMLAnchorElement>,
-  "onClick"
-> & {
+type TrackedWhatsAppLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
   children: ReactNode;
 };
 
 export function TrackedWhatsAppLink({
   children,
+  onClick,
   ...props
 }: TrackedWhatsAppLinkProps) {
-  function trackClick() {
+  function trackClick(event: MouseEvent<HTMLAnchorElement>) {
+    onClick?.(event);
+    if (event.defaultPrevented) return;
+
     window.dataLayer = window.dataLayer || [];
     window.gtag =
       window.gtag ||
-      function gtag() {
-        window.dataLayer.push(arguments);
+      function gtag(...args: unknown[]) {
+        window.dataLayer.push(args);
       };
 
     window.gtag("event", "whatsapp_click", {

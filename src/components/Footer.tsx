@@ -7,8 +7,8 @@ import { TrackedWhatsAppLink } from "@/components/TrackedWhatsAppLink";
 
 export function Footer() {
   return (
-    <footer className="border-t-4 border-[#ba633d] bg-[#18372f] px-6 py-14 text-[#d0ddd2] md:px-12">
-      <div className="mx-auto mb-12 grid max-w-screen-xl grid-cols-1 gap-10 md:grid-cols-4">
+    <footer className="border-t-4 border-[#ba633d] bg-[#18372f] px-4 py-10 text-[#d0ddd2] sm:px-6 sm:py-14 md:px-12">
+      <div className="mx-auto mb-10 grid max-w-screen-xl grid-cols-1 gap-8 sm:gap-10 md:mb-12 md:grid-cols-4">
         <div className="col-span-1 md:col-span-1">
           <a
             href="#top"

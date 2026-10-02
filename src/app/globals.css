@@ -118,16 +118,14 @@ footer {
   color: var(--orange);
   margin: 0 0 18px;
 }
-.hero h1,
-h2 {
+.hero h1 {
   font:
     500 76px/0.88 Fraunces,
     serif;
   letter-spacing: -3px;
   margin: 0;
 }
-.hero h1 i,
-h2 i {
+.hero h1 i {
   color: #e19a6e;
   font-weight: 500;
 }

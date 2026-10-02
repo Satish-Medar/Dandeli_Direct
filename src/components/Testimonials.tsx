@@ -20,19 +20,19 @@ export function Testimonials() {
   return (
     <section
       id="how-it-works"
-      className="bg-[#e9eeea] px-6 py-20 md:px-12 md:py-24"
+      className="bg-[#e9eeea] px-4 py-12 sm:px-6 sm:py-16 md:px-12 md:py-24"
     >
       <div className="mx-auto max-w-screen-xl">
         <div className="max-w-2xl">
           <p className="mb-4 text-xs font-semibold uppercase text-[#ba633d]">
             How it works
           </p>
-          <h2 className="font-serif text-4xl leading-tight text-[#18372f] md:text-5xl">
+          <h2 className="font-serif text-3xl leading-tight text-[#18372f] sm:text-4xl md:text-5xl">
             A good trip starts with a few clear choices.
           </h2>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 border-t border-[#bfcac1] md:grid-cols-3">
+        <div className="mt-8 grid grid-cols-1 border-t border-[#bfcac1] md:mt-12 md:grid-cols-3">
           {steps.map((step) => (
             <article
               key={step.number}
@@ -41,7 +41,7 @@ export function Testimonials() {
               <span className="text-xs font-semibold text-[#ba633d]">
                 {step.number}
               </span>
-              <h3 className="mt-5 font-serif text-2xl text-[#18372f]">
+              <h3 className="mt-4 font-serif text-xl text-[#18372f] sm:mt-5 sm:text-2xl">
                 {step.title}
               </h3>
               <p className="mt-3 max-w-sm text-sm leading-6 text-[#5d6e65]">

@@ -18,8 +18,8 @@ export function TrustBadges() {
   ];
 
   return (
-    <section className="border-b border-[#d5ddd5] bg-[#fbfaf6] px-6 py-10 md:px-12 md:py-12">
-      <div className="mx-auto grid max-w-screen-xl grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
+    <section className="border-b border-[#d5ddd5] bg-[#fbfaf6] px-4 py-8 sm:px-6 sm:py-10 md:px-12 md:py-12">
+      <div className="mx-auto grid max-w-screen-xl grid-cols-1 gap-6 md:grid-cols-3 md:gap-12">
         {details.map((detail) => (
           <article
             key={detail.number}
@@ -28,7 +28,7 @@ export function TrustBadges() {
             <span className="text-xs font-semibold text-[#ba633d]">
               {detail.number}
             </span>
-            <h2 className="mt-4 font-serif text-2xl text-[#18372f]">
+            <h2 className="mt-3 font-serif text-xl text-[#18372f] sm:mt-4 sm:text-2xl">
               {detail.title}
             </h2>
             <p className="mt-2 max-w-sm text-sm leading-6 text-[#5d6e65]">

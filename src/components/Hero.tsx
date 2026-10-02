@@ -1,13 +1,8 @@
-import {
-  CONTACT_PHONE_DISPLAY,
-  createWhatsAppUrl,
-  WHATSAPP_REQUIREMENTS_MESSAGE,
-} from "@/lib/contact";
-import { TrackedWhatsAppLink } from "@/components/TrackedWhatsAppLink";
+import { CONTACT_PHONE_DISPLAY } from "@/lib/contact";
 
 export function Hero() {
   return (
-    <section className="relative isolate flex min-h-[720px] flex-col overflow-hidden bg-[#173c34] text-[#fffaf1] md:min-h-[780px]">
+    <section className="relative isolate flex min-h-[640px] flex-col overflow-hidden bg-[#173c34] text-[#fffaf1] md:min-h-[780px]">
       <div
         aria-hidden="true"
         className="absolute inset-0 -z-10 bg-cover bg-[position:center_55%]"
@@ -20,13 +15,13 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#102c27]/65 via-transparent to-[#102c27]/30" />
       </div>
 
-      <nav className="relative z-10 mx-auto flex w-full max-w-screen-xl items-center justify-between border-b border-white/25 px-6 py-5 md:px-12">
-        <a href="#top" className="font-serif text-xl text-white">
+      <nav className="relative z-10 mx-auto flex w-full max-w-screen-xl items-center justify-between border-b border-white/25 px-4 py-4 sm:px-6 sm:py-5 md:px-12">
+        <a href="#top" className="font-serif text-lg text-white sm:text-xl">
           Dandeli <em className="font-normal">Direct</em>
         </a>
         <div className="hidden items-center gap-8 text-sm text-white/90 md:flex">
-          <a href="#booking" className="transition-colors hover:text-white">
-            Find a stay
+          <a href="/guest" className="transition-colors hover:text-white">
+            Guest portal
           </a>
           <a
             href="#how-it-works"
@@ -40,36 +35,35 @@ export function Hero() {
         </div>
         <a
           href={`tel:+${CONTACT_PHONE_DISPLAY.replace(/\D/g, "")}`}
-          className="text-sm font-semibold text-white underline decoration-white/50 underline-offset-4 transition-colors hover:decoration-white"
+          className="shrink-0 text-xs font-semibold text-white underline decoration-white/50 underline-offset-4 transition-colors hover:decoration-white sm:text-sm"
         >
-          Call {CONTACT_PHONE_DISPLAY}
+          <span className="sm:hidden">Call us</span>
+          <span className="hidden sm:inline">Call {CONTACT_PHONE_DISPLAY}</span>
         </a>
       </nav>
 
       <div
         id="top"
-        className="relative z-10 mx-auto flex w-full max-w-screen-xl flex-1 items-center px-6 py-16 md:px-12"
+        className="relative z-10 mx-auto flex w-full max-w-screen-xl flex-1 items-center px-4 py-12 sm:px-6 sm:py-16 md:px-12"
       >
         <div className="max-w-2xl">
-          <p className="mb-6 text-xs font-semibold uppercase text-[#edb27f]">
+          <p className="mb-4 text-xs font-semibold uppercase text-[#edb27f] sm:mb-6">
             A local guide to Dandeli, Karnataka
           </p>
-          <h1 className="max-w-[680px] font-serif text-5xl leading-[1.02] text-white md:text-7xl">
+          <h1 className="max-w-[680px] font-serif text-4xl leading-tight text-white sm:text-5xl md:text-7xl">
             Find your own way to the river.
           </h1>
-          <p className="mt-7 max-w-xl text-lg leading-8 text-white/85">
+          <p className="mt-5 max-w-xl text-base leading-7 text-white/85 sm:mt-7 sm:text-lg sm:leading-8">
             Compare local stays, shape a trip around the things you want to do,
             and speak directly with us before you commit.
           </p>
-          <div className="mt-9 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
-            <TrackedWhatsAppLink
-              href={createWhatsAppUrl(WHATSAPP_REQUIREMENTS_MESSAGE)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex min-h-12 items-center justify-center bg-[#25D366] px-6 py-3 font-semibold text-[#102c27] transition-colors hover:bg-[#62e38f]"
+          <div className="mt-7 flex flex-col items-stretch gap-4 sm:mt-9 sm:flex-row sm:items-center sm:gap-5">
+            <a
+              href="/guest"
+              className="inline-flex min-h-12 w-full items-center justify-center bg-[#25D366] px-4 py-3 text-sm font-semibold text-[#102c27] transition-colors hover:bg-[#62e38f] sm:w-auto sm:px-6 sm:text-base"
             >
-              Tell us what you have in mind
-            </TrackedWhatsAppLink>
+              Start a stay request
+            </a>
             <a
               href="#booking"
               className="py-3 text-sm font-semibold text-white underline decoration-white/50 underline-offset-4 transition-colors hover:decoration-white"
@@ -80,7 +74,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative z-10 mx-auto flex w-full max-w-screen-xl flex-wrap gap-x-8 gap-y-2 px-6 pb-7 text-xs text-white/75 md:px-12">
+      <div className="relative z-10 mx-auto flex w-full max-w-screen-xl flex-wrap gap-x-5 gap-y-2 px-4 pb-5 text-xs text-white/75 sm:gap-x-8 sm:px-6 sm:pb-7 md:px-12">
         <span>Dandeli, Uttara Kannada</span>
         <span>Stays, river time, forest trails</span>
         <span>Talk to a local before booking</span>
