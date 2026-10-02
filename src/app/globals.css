@@ -22,6 +22,62 @@
 html {
   scroll-behavior: smooth;
 }
+.guest-request-float {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.98) 0%,
+    rgba(240, 245, 241, 0.97) 100%
+  );
+  box-shadow: 0 28px 65px rgba(16, 36, 29, 0.11);
+  animation: guest-request-float 4.2s ease-in-out infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+.guest-request-float::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    #ba633d 0%,
+    #edb589 22%,
+    #18372f 60%,
+    #ba633d 100%
+  );
+}
+.guest-request-float::after {
+  content: "";
+  position: absolute;
+  right: -40px;
+  top: -54px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(186, 99, 61, 0.18) 0%,
+    rgba(186, 99, 61, 0.08) 42%,
+    rgba(24, 55, 47, 0) 72%
+  );
+  pointer-events: none;
+}
+@keyframes guest-request-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .guest-request-float {
+    animation: none;
+    will-change: auto;
+  }
+}
 body {
   margin: 0;
   background: var(--paper);

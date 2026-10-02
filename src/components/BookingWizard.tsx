@@ -253,207 +253,213 @@ export function BookingWizard({
       <section className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 sm:py-16 md:px-12 md:py-24">
         <section
           id="guest-request"
-          className="overflow-hidden border border-[#bfcac1] bg-white shadow-[0_12px_32px_rgba(24,55,47,0.12)]"
+          className="guest-request-float relative z-10 isolate overflow-hidden rounded-[30px] border border-[#dfe5df] bg-white/90 px-2 py-24 shadow-[0_26px_60px_rgba(16,36,29,0.10)] sm:px-5 sm:py-20 md:px-14 md:py-16"
           aria-labelledby="guest-request-title"
         >
-          <div className="flex flex-col justify-between gap-3 bg-[#18372f] px-5 py-5 text-white sm:flex-row sm:items-center sm:px-7">
-            <div>
-              <p className="text-xs font-semibold uppercase text-[#f2b98d]">
-                Guest stay request
-              </p>
-              <h3
-                id="guest-request-title"
-                className="mt-1 font-serif text-2xl text-white"
-              >
-                Tell us what kind of stay you prefer
-              </h3>
-            </div>
-            <p className="w-fit border border-white/20 px-3 py-2 text-xs text-white/90">
-              No booking fee · No advance payment
-            </p>
-          </div>
-
-          <div className="p-4 sm:p-7">
-            <fieldset id="stay-style-options">
-              <legend className="mb-3 text-sm font-semibold text-[#18372f]">
-                1. Choose one stay type
-              </legend>
-              <div className="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:gap-4">
-                {stayStyles.map((style) => {
-                  const isSelected = selectedProperty === style.propertyId;
-
-                  return (
-                    <label
-                      key={style.propertyId}
-                      className={`flex min-h-0 cursor-pointer flex-row items-center justify-between gap-3 border p-3 text-left transition-colors focus-within:ring-2 focus-within:ring-[#ba633d] sm:min-h-32 sm:flex-col sm:items-start sm:gap-0 sm:p-5 ${isSelected ? "border-[#ba633d] bg-[#f4e9df]" : "border-[#cbd4cb] bg-[#fbfaf6] hover:border-[#18372f]"}`}
-                    >
-                      <input
-                        type="radio"
-                        name="stayStyle"
-                        value={style.propertyId}
-                        checked={isSelected}
-                        onChange={() => {
-                          setSelectedProperty(style.propertyId);
-                          setSelectedVibe("all");
-                          setFormPrompt(null);
-                        }}
-                        className="sr-only"
-                      />
-                      <span>
-                        <span className="block font-serif text-lg text-[#18372f] sm:text-xl">
-                          {style.title}
-                        </span>
-                        <span className="mt-1 block text-sm leading-5 text-[#65736b]">
-                          {style.description}
-                        </span>
-                      </span>
-                      <span className="shrink-0 text-xs font-semibold text-[#18372f] sm:mt-4 sm:text-sm">
-                        {isSelected ? "Selected" : "Choose this"}
-                      </span>
-                    </label>
-                  );
-                })}
-              </div>
-              <p className="mt-2 text-xs text-[#65736b]">
-                Select one option before sending your request.
-              </p>
-            </fieldset>
-
-            <div className="mt-5 flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
-              <p className="text-sm font-semibold text-[#18372f]">
-                2. Your details
-              </p>
-              <p className="text-sm text-[#65736b]">
-                {selectedProperty
-                  ? `${property.alias} · ${nightsLabel} · ${guests} guests`
-                  : "Choose a stay style above to continue"}
-              </p>
-            </div>
-
-            <div className="mt-4 grid grid-cols-1 gap-3 min-[480px]:grid-cols-2 sm:mt-5 sm:gap-4 lg:grid-cols-4">
-              <label className="block text-xs font-semibold uppercase tracking-wide text-[#65736b]">
-                Your name
-                <input
-                  type="text"
-                  autoComplete="name"
-                  maxLength={100}
-                  value={guestName}
-                  onChange={(event) => setGuestName(event.target.value)}
-                  className="mt-2 block min-h-12 w-full rounded-sm border border-[#cbd4cb] bg-[#fbfaf6] px-3 text-base font-normal normal-case text-[#18372f] outline-none focus:border-[#ba633d] focus:ring-1 focus:ring-[#ba633d]"
-                />
-              </label>
+          <div className="relative z-10 mx-auto max-w-4xl px-10 sm:px-8 md:px-12">
+            <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
               <div>
-                <label
-                  htmlFor="guest-phone"
-                  className="block text-xs font-semibold uppercase tracking-wide text-[#65736b]"
+                <p className="text-xs font-bold uppercase text-[#8a492f]">
+                  Guest stay request
+                </p>
+                <h3
+                  id="guest-request-title"
+                  className="mt-1 font-serif text-2xl text-[#18372f]"
                 >
-                  Phone number
-                </label>
-                <input
-                  id="guest-phone"
-                  type="tel"
-                  autoComplete="tel"
-                  maxLength={24}
-                  value={guestPhone}
-                  aria-invalid={formPrompt === "phone"}
-                  aria-describedby={
-                    formPrompt === "phone" ? "phone-number-error" : undefined
-                  }
-                  onChange={(event) => {
-                    setGuestPhone(event.target.value);
-                    if (formPrompt === "phone" && event.target.value.trim())
-                      setFormPrompt(null);
-                  }}
-                  className="mt-2 block min-h-12 w-full rounded-sm border border-[#cbd4cb] bg-[#fbfaf6] px-3 text-base font-normal normal-case text-[#18372f] outline-none focus:border-[#ba633d] focus:ring-1 focus:ring-[#ba633d]"
-                />
-                {formPrompt === "phone" && (
-                  <p
-                    id="phone-number-error"
-                    role="alert"
-                    className="mt-2 text-xs font-semibold text-[#a33d25]"
-                  >
-                    Enter your contact number to continue on WhatsApp.
-                  </p>
-                )}
+                  Tell us what kind of stay you prefer
+                </h3>
               </div>
-              <label className="block text-xs font-semibold uppercase tracking-wide text-[#65736b]">
-                Check-in
-                <input
-                  type="date"
-                  min={today}
-                  value={checkIn}
-                  onChange={(event) => {
-                    const nextCheckIn = event.target.value;
-                    setCheckIn(nextCheckIn);
-                    if (checkOut <= nextCheckIn)
-                      setCheckOut(addDays(nextCheckIn, 1));
-                  }}
-                  className="mt-2 block min-h-12 w-full rounded-sm border border-[#cbd4cb] bg-[#fbfaf6] px-3 text-base font-normal normal-case text-[#18372f] outline-none focus:border-[#ba633d] focus:ring-1 focus:ring-[#ba633d]"
-                />
-              </label>
-              <label className="block text-xs font-semibold uppercase tracking-wide text-[#65736b]">
-                Guests
-                <input
-                  type="number"
-                  min="1"
-                  max="8"
-                  value={guests}
-                  onChange={(event) =>
-                    setGuests(
-                      Math.min(8, Math.max(1, Number(event.target.value) || 1)),
-                    )
-                  }
-                  className="mt-2 block min-h-12 w-full rounded-sm border border-[#cbd4cb] bg-[#fbfaf6] px-3 text-base font-normal normal-case text-[#18372f] outline-none focus:border-[#ba633d] focus:ring-1 focus:ring-[#ba633d]"
-                />
-              </label>
-            </div>
-
-            <div className="mt-5">
-              <TrackedWhatsAppLink
-                href={createWhatsAppUrl(whatsappMessage)}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-describedby={
-                  formPrompt === "stay" ? "stay-type-error" : undefined
-                }
-                onClick={(event) => {
-                  if (!selectedProperty) {
-                    event.preventDefault();
-                    setFormPrompt("stay");
-                    document
-                      .querySelector<HTMLInputElement>(
-                        'input[name="stayStyle"]',
-                      )
-                      ?.focus();
-                    return;
-                  }
-                  if (!guestPhone.trim()) {
-                    event.preventDefault();
-                    setFormPrompt("phone");
-                    document.getElementById("guest-phone")?.focus();
-                    return;
-                  }
-                  setFormPrompt(null);
-                }}
-                className="inline-flex min-h-12 w-full items-center justify-center bg-[#25D366] px-5 py-3 text-sm font-bold text-[#102c27] transition-colors hover:bg-[#62e38f]"
-              >
-                Continue on WhatsApp
-              </TrackedWhatsAppLink>
-            </div>
-
-            {formPrompt === "stay" && (
-              <p
-                id="stay-type-error"
-                role="alert"
-                className="mt-3 border-l-2 border-[#ba633d] bg-[#f4e9df] px-3 py-2 text-sm font-semibold text-[#713d2c]"
-              >
-                Please choose one of the three stay types before continuing.
+              <p className="w-fit text-xs font-semibold text-[#18372f]">
+                No booking fee · No advance payment
               </p>
-            )}
+            </div>
 
-            <p className="mt-3 text-xs leading-5 text-[#65736b]">
-              WhatsApp opens with your details. Review the message and tap Send.
-            </p>
+            <div className="mt-6">
+              <fieldset id="stay-style-options">
+                <legend className="mb-3 text-sm font-semibold text-[#18372f]">
+                  1. Choose one stay type
+                </legend>
+                <div className="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:gap-4">
+                  {stayStyles.map((style) => {
+                    const isSelected = selectedProperty === style.propertyId;
+
+                    return (
+                      <label
+                        key={style.propertyId}
+                        className={`flex min-h-0 cursor-pointer flex-row items-center justify-between gap-3 border p-3 text-left transition-colors focus-within:ring-2 focus-within:ring-[#ba633d] sm:min-h-32 sm:flex-col sm:items-start sm:gap-0 sm:p-5 ${isSelected ? "border-[#ba633d] bg-[#f4e9df] shadow-[inset_0_0_0_1px_#ba633d]" : "border-[#b9c9bf] bg-white hover:border-[#18372f]"}`}
+                      >
+                        <input
+                          type="radio"
+                          name="stayStyle"
+                          value={style.propertyId}
+                          checked={isSelected}
+                          onChange={() => {
+                            setSelectedProperty(style.propertyId);
+                            setSelectedVibe("all");
+                            setFormPrompt(null);
+                          }}
+                          className="sr-only"
+                        />
+                        <span>
+                          <span className="block font-serif text-lg text-[#18372f] sm:text-xl">
+                            {style.title}
+                          </span>
+                          <span className="mt-1 block text-sm leading-5 text-[#65736b]">
+                            {style.description}
+                          </span>
+                        </span>
+                        <span className="shrink-0 text-xs font-semibold text-[#18372f] sm:mt-4 sm:text-sm">
+                          {isSelected ? "Selected" : "Choose this"}
+                        </span>
+                      </label>
+                    );
+                  })}
+                </div>
+                <p className="mt-2 text-xs text-[#65736b]">
+                  Select one option before sending your request.
+                </p>
+              </fieldset>
+
+              <div className="mt-5 flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+                <p className="text-sm font-semibold text-[#18372f]">
+                  2. Your details
+                </p>
+                <p className="text-sm text-[#65736b]">
+                  {selectedProperty
+                    ? `${property.alias} · ${nightsLabel} · ${guests} guests`
+                    : "Choose a stay style above to continue"}
+                </p>
+              </div>
+
+              <div className="mt-4 grid grid-cols-1 gap-3 min-[360px]:grid-cols-2 sm:mt-5 sm:gap-4 lg:grid-cols-4">
+                <label className="block text-xs font-semibold uppercase tracking-wide text-[#65736b]">
+                  Your name
+                  <input
+                    type="text"
+                    autoComplete="name"
+                    maxLength={100}
+                    value={guestName}
+                    onChange={(event) => setGuestName(event.target.value)}
+                    className="mt-2 block min-h-12 w-full rounded-sm border border-[#a8b9ae] bg-white px-3 text-base font-normal normal-case text-[#18372f] outline-none focus:border-[#ba633d] focus:ring-1 focus:ring-[#ba633d]"
+                  />
+                </label>
+                <div>
+                  <label
+                    htmlFor="guest-phone"
+                    className="block text-xs font-semibold uppercase tracking-wide text-[#65736b]"
+                  >
+                    Phone number
+                  </label>
+                  <input
+                    id="guest-phone"
+                    type="tel"
+                    autoComplete="tel"
+                    maxLength={24}
+                    value={guestPhone}
+                    aria-invalid={formPrompt === "phone"}
+                    aria-describedby={
+                      formPrompt === "phone" ? "phone-number-error" : undefined
+                    }
+                    onChange={(event) => {
+                      setGuestPhone(event.target.value);
+                      if (formPrompt === "phone" && event.target.value.trim())
+                        setFormPrompt(null);
+                    }}
+                    className="mt-2 block min-h-12 w-full rounded-sm border border-[#a8b9ae] bg-white px-3 text-base font-normal normal-case text-[#18372f] outline-none focus:border-[#ba633d] focus:ring-1 focus:ring-[#ba633d]"
+                  />
+                  {formPrompt === "phone" && (
+                    <p
+                      id="phone-number-error"
+                      role="alert"
+                      className="mt-2 text-xs font-semibold text-[#a33d25]"
+                    >
+                      Enter your contact number to continue on WhatsApp.
+                    </p>
+                  )}
+                </div>
+                <label className="block text-xs font-semibold uppercase tracking-wide text-[#65736b]">
+                  Check-in
+                  <input
+                    type="date"
+                    min={today}
+                    value={checkIn}
+                    onChange={(event) => {
+                      const nextCheckIn = event.target.value;
+                      setCheckIn(nextCheckIn);
+                      if (checkOut <= nextCheckIn)
+                        setCheckOut(addDays(nextCheckIn, 1));
+                    }}
+                    className="mt-2 block min-h-12 w-full rounded-sm border border-[#a8b9ae] bg-white px-3 text-base font-normal normal-case text-[#18372f] outline-none focus:border-[#ba633d] focus:ring-1 focus:ring-[#ba633d]"
+                  />
+                </label>
+                <label className="block text-xs font-semibold uppercase tracking-wide text-[#65736b]">
+                  Guests
+                  <input
+                    type="number"
+                    min="1"
+                    max="8"
+                    value={guests}
+                    onChange={(event) =>
+                      setGuests(
+                        Math.min(
+                          8,
+                          Math.max(1, Number(event.target.value) || 1),
+                        ),
+                      )
+                    }
+                    className="mt-2 block min-h-12 w-full rounded-sm border border-[#a8b9ae] bg-white px-3 text-base font-normal normal-case text-[#18372f] outline-none focus:border-[#ba633d] focus:ring-1 focus:ring-[#ba633d]"
+                  />
+                </label>
+              </div>
+
+              <div className="mt-5">
+                <TrackedWhatsAppLink
+                  href={createWhatsAppUrl(whatsappMessage)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-describedby={
+                    formPrompt === "stay" ? "stay-type-error" : undefined
+                  }
+                  onClick={(event) => {
+                    if (!selectedProperty) {
+                      event.preventDefault();
+                      setFormPrompt("stay");
+                      document
+                        .querySelector<HTMLInputElement>(
+                          'input[name="stayStyle"]',
+                        )
+                        ?.focus();
+                      return;
+                    }
+                    if (!guestPhone.trim()) {
+                      event.preventDefault();
+                      setFormPrompt("phone");
+                      document.getElementById("guest-phone")?.focus();
+                      return;
+                    }
+                    setFormPrompt(null);
+                  }}
+                  className="inline-flex min-h-12 w-full items-center justify-center bg-[#25D366] px-5 py-3 text-sm font-bold text-[#102c27] transition-colors hover:bg-[#62e38f]"
+                >
+                  Continue on WhatsApp
+                </TrackedWhatsAppLink>
+              </div>
+
+              {formPrompt === "stay" && (
+                <p
+                  id="stay-type-error"
+                  role="alert"
+                  className="mt-3 border-l-2 border-[#ba633d] bg-[#f4e9df] px-3 py-2 text-sm font-semibold text-[#713d2c]"
+                >
+                  Please choose one of the three stay types before continuing.
+                </p>
+              )}
+
+              <p className="mt-3 text-xs leading-5 text-[#65736b]">
+                WhatsApp opens with your details. Review the message and tap
+                Send.
+              </p>
+            </div>
           </div>
         </section>
 
